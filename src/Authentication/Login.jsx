@@ -109,7 +109,7 @@ return (
             </Link> 
          </p>
 
-        <div className="form-control mt-6">
+        <div className="form-control mt-6 ">
           <button className="btn hover:border-2 hover:border-rose-950
          bg-[#8A3324] font-bold hover:bg-[#d9988c] 
           hover:text-rose-950 text-white ">
