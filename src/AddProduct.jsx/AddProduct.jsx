@@ -4,7 +4,7 @@ const AddProduct = () => {
     return (
         <div>
             <h1 className="text-center font-extrabold text-[#8A3324] 
-            text-xl md:text-4xl mt-7 " >Add Product</h1>
+            text-xl  md:text-4xl mt-7 " >Add Product</h1>
             <div className="bg-[#f5e3db] pb-6 px-3 md:px-12 ">
                 <form className=" py-10 ">
                     <div className="lg:flex gap-6 lg:py-4 justify-center ">
