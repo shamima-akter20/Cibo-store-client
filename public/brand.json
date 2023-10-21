@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "brand_name": "Coca-Cola",
+      "short_detail": "Refreshing beverages by Coca-Cola.",
+      "image":"https://i.ibb.co/Tqtc2Dx/cocacola.jpg"
+    },
+    {
+      "id": 2,
+      "brand_name": "McDonald's",
+      "short_detail": "Delicious fast-food at McDonald's.",
+      "image":"https://i.ibb.co/jGPbYh6/mo.webp"
+    },
+    {
+      "id": 3,
+      "brand_name": "Starbucks",
+      "short_detail": "Your favorite coffee at Starbucks.",
+      "image":"https://i.ibb.co/2NZk446/star.jpg"
+    },
+    {
+      "id": 4,
+      "brand_name": "PepsiCo",
+      "short_detail": "Variety of snacks and drinks by PepsiCo.",
+      "image":"https://i.ibb.co/34yZpqn/pep.jpg"
+    },
+    {
+      "id": 5,
+      "brand_name": "Nestlé",
+      "short_detail": "Quality food and beverages by Nestlé.",
+      "image":"https://i.ibb.co/hCD2q7g/nest.png"
+    },
+    {
+      "id": 6,
+      "brand_name": "Kellogg's",
+      "short_detail": "Start your day with Kellogg's cereals.",
+      "image":"https://i.ibb.co/KhvkZJc/k.jpg"
+    }
+  ]
+  

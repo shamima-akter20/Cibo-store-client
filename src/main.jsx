@@ -11,6 +11,7 @@ import Registration from './Authentication/Registration';
 import AuthProvider from './Firebase/AuthProvider';
 import PrivateRoute from './Authentication/PrivateRoute';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
         path:"/registration",
         element: <Registration></Registration> ,
       },
+      
      
     ],
   },
