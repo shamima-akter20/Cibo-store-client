@@ -3,6 +3,7 @@
 const Banner = () => {
     return (
         <div>
+          
             <div className="hero h-[30vh] md:h-[80vh] overflow-hidden
            bg-fixed bg-cover bg-center  relative
             " style={{backgroundImage: 'url(  https://i.ibb.co/8cCtykK/burger3.jpg  )'}}>

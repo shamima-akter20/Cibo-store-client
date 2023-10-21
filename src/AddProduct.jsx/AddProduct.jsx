@@ -5,81 +5,66 @@ const AddProduct = () => {
         <div>
             <h1 className="text-center font-extrabold text-[#8A3324] 
             text-xl  md:text-4xl mt-7 " >Add Product</h1>
-            <div className="bg-[#f5e3db] pb-6 px-3 md:px-12 ">
-                <form className=" py-10 ">
-                    <div className="lg:flex gap-6 lg:py-4 justify-center ">
+<div className="px-16 md:px-24 mt-24">
+<form>
+{/* ============================   1   ========================== */}
+  <div className="grid md:grid-cols-2 md:gap-6">
 
-                    <div className="flex mb-4 h-12 text-sm md:text-lg font-bold text-center ">
-                        <p className="flex items-center pr-6 ">Name : </p>
-                        <input type="text" placeholder="  Product Name" 
-                        className="bg-slate-100 w-96 "
-                        name="" id="" />
-                    </div>
-                    <div className="flex mb-4  h-12 text-sm md:text-lg font-bold text-center ">
-                        <p className="flex items-center pr-6 ">Brand : </p>
-                        <input type="text" placeholder="  Product Brand  " 
-                        className="bg-slate-100 w-96 "
-                        name="" id="" />
-                    </div>
-                   </div>
+    <div className="relative z-0 w-full mb-6 group">
+        <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        <label for="floating_first_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+    </div>
+    <div className="relative z-0 w-full mb-6 group">
+        <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        <label for="floating_last_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Band Name</label>
+    </div>
 
+  </div>
+{/* ============================   2   ========================== */}
+  <div className="grid md:grid-cols-2 md:gap-6">
 
+    <div className="relative z-0 w-full mb-6 group">
+        <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        <label for="floating_first_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Type</label>
+    </div>
+    <div className="relative z-0 w-full mb-6 group">
+        <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        <label for="floating_last_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Price</label>
+    </div>
 
-                   <div className="lg:flex gap-6 lg:py-4 justify-center ">
+  </div>
+{/* ============================   3   ========================== */}
+  <div className="grid md:grid-cols-2 md:gap-6">
 
-                    <div className="flex mb-4  h-12  text-sm md:text-lg font-bold text-center ">
-                        <p className="flex items-center pr-6 "> Description: </p>
-                        <input type="text" placeholder="  Product Description" 
-                        className="bg-slate-100  w-96 "
-                        name="" id="" />
-                    </div>
-                    <div className="flex mb-4  h-12  text-sm md:text-lg font-bold text-center ">
-                        <p className="flex items-center pr-6 ">Price : </p>
-                        <input type="text" placeholder="  Product Price" 
-                        className="bg-slate-100 w-96 "
-                        name="" id="" />
-                    </div>
-                   </div>
+    <div className="relative z-0 w-full mb-6 group">
+        <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        <label for="floating_first_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Short Description</label>
+    </div>
+    <div className="relative z-0 w-full mb-6 group">
+        <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        <label for="floating_last_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Rating</label>
+    </div>
 
-
-
-
-                   <div className="lg:flex  gap-6  lg:py-4 justify-center ">
-
-                    <div className="flex mb-4  h-12  text-sm md:text-lg font-bold text-center ">
-                        <p className="flex items-center pr-6 ">Type : </p>
-                        <input type="text" placeholder="  Product Type" 
-                        className="bg-slate-100 w-96 "
-                        name="" id="" />
-                    </div>
-                    <div className="flex mb-4  h-12  text-sm md:text-lg font-bold text-center ">
-                        <p className="flex items-center pr-6 ">Rating : </p>
-                        <input type="text" placeholder="  Product Rating " 
-                        className="bg-slate-100 w-96 "
-                        name="" id="" />
-                    </div>
-                   </div>
+  </div>
 
 
-                   <div className="flex gap-6 lg:py-4 justify-center ">
+{/* ============================   URL of image   ========================== */}
+<div className="">
+    <div className="relative z-0 w-full mb-6 group">
+        <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+        <label for="floating_first_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Image URL</label>
+    </div>
+</div>
 
-                    <div className="flex mb-4  h-12  text-sm md:text-lg font-bold text-center ">
-                        <p className="flex items-center pr-6 ">Image : </p>
-                        <input type="text" placeholder="  Product Image" 
-                        className="bg-slate-100 w-auto md:w-96 "
-                        name="" id="" />
-                    </div>
-                    
-                   </div>
-   
-                </form>
-                <div className="justify-center items-center text-center ">
-                    <button className="btn bg-[#8A3324] text-white w-full">
-                        Add Product
-                    </button>
-                </div>
-            </div>
-        </div>
+{/* button */}
+<div className="mt-16">
+    <button className="btn w-full text-white bg-[#8A3324] font-bold hover:text-[#8A3324]  hover:bg-[#c7a380]  ">Add Product</button>
+</div>
+
+ 
+</form>
+</div>            
+</div>
     );
 };
 

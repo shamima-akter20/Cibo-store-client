@@ -14,6 +14,10 @@ useEffect(() =>{
 console.log(brand);
 
 
+{/* <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+</div> */}
+
 
     return (
         <div>
@@ -30,7 +34,7 @@ console.log(brand);
              lg:grid-cols-3 gap-10 justify-center mx-auto items-center" > 
                 {
                     brand.map(brands =>(
-                        <Link  key={brands.id} to="/">
+                        <Link  key={brands.id} to="/branddetail">
                         <div className=" bg-[#fff6ec] card w-80 shadow-2xl ">
                            <figure><img className="h-[200px]  w-full"
                             src={brands.image} alt="Shoes" /></figure>
@@ -67,4 +71,3 @@ console.log(brand);
 };
 
 export default OurBrand;
-{/* https://i.ibb.co/cL0bxQy/brown-car-1.png */}
