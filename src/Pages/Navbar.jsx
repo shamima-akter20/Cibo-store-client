@@ -65,6 +65,7 @@ return (
          </div>
        <button onClick={handleSingOut} className="text-lg  py-2 px-2 rounded-xl font-bold bg-[#8A3324] 
         hover:text-[#8A3324] hover:bg-white  text-white" >
+          <i className="fa-solid fa-right-from-bracket pr-2"></i>
        Log Out
        </button> 
        </div>
@@ -73,6 +74,7 @@ return (
         <Link  to="/login">
           <button className="text-lg  py-2 px-2 rounded-xl font-bold bg-[#8A3324] 
         hover:text-[#8A3324] hover:bg-white  text-white" >
+          <i className="fa-solid fa-right-to-bracket  pr-2"></i>
        Log In
        </button>
        </Link>

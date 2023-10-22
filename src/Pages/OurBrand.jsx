@@ -34,7 +34,7 @@ console.log(brand);
              lg:grid-cols-3 gap-10 justify-center mx-auto items-center" > 
                 {
                     brand.map(brands =>(
-                        <Link  key={brands.id} to="/branddetail">
+                        <Link  key={brands.id} to={`/updateProduct/${brands.brand_name}`}>
                         <div className=" bg-[#fff6ec] card w-80 shadow-2xl ">
                            <figure><img className="h-[200px]  w-full"
                             src={brands.image} alt="Shoes" /></figure>

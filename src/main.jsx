@@ -10,7 +10,10 @@ import Login from './Authentication/Login';
 import Registration from './Authentication/Registration';
 import AuthProvider from './Firebase/AuthProvider';
 import PrivateRoute from './Authentication/PrivateRoute';
-import BrandDetails from './Pages/BrandDetails';
+import UpdateProduct from './Pages/UpdateProduct';
+import NewUpPro from './Pages/NewUpPro';
+import ProductDetails from './Pages/ProductDetails';
+import EditUpdate from './Pages/EditUpdate';
 
 const router = createBrowserRouter([
   {
@@ -23,12 +26,6 @@ const router = createBrowserRouter([
           element: <Home></Home> ,
       },
       {
-        path:"/AddProduct",
-        element: <PrivateRoute>
-          <AddProduct></AddProduct>
-          </PrivateRoute>  ,
-      },
-      {
         path:"/login",
         element: <Login></Login> ,
       },
@@ -37,13 +34,33 @@ const router = createBrowserRouter([
         element: <Registration></Registration> ,
       },
       {
-        path:"/registration",
-        element: <Registration></Registration> ,
+        path:"/AddProduct",
+        element: <PrivateRoute>
+          <AddProduct></AddProduct>
+          </PrivateRoute>  ,
       },
       {
-        path:"/branddetail",
-        element: <BrandDetails></BrandDetails> ,
+        path:"/updateProduct/:brandName",
+        element: <UpdateProduct></UpdateProduct> ,
+        loader: () => fetch('http://localhost:5000/product'),
       },
+      {
+        path:'/newUpProduct/:id',
+        element: <NewUpPro></NewUpPro> ,
+        loader: ({params}) => fetch(`http://localhost:5000/product/${params.id}`)
+      },
+
+      {
+        path: '/productDetails/:id',
+        element: <ProductDetails/>,
+        loader: ({params}) => fetch(`http://localhost:5000/product/${params.id}`)
+      },
+      {
+        path: '/edit/:id',
+        element: <EditUpdate></EditUpdate>,
+        loader: ({params}) => fetch(`http://localhost:5000/product/${params.id}`)
+      },
+     
      
     ],
   },
