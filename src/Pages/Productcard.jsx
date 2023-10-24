@@ -18,7 +18,7 @@ const Productcard = ({productCard}) => {
           }).then((result) => {
             if (result.isConfirmed) {
 
-            fetch(`http://localhost:5000/product/${_id}`,{
+            fetch(`https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/product/${_id}`,{
                 method: 'DELETE',
             })
                .then(res => res.json())

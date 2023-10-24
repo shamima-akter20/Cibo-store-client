@@ -18,7 +18,7 @@ const MyCart = () => {
 
    const handleDelete = id =>{
      //make sure user is confirmed to delete
-     fetch(`http://localhost:5000/cart/${id}`,{
+     fetch(`https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/cart/${id}`,{
         method:'DELETE'
      })
           .then(res => res.json())

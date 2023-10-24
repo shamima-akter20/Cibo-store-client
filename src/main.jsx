@@ -43,28 +43,28 @@ const router = createBrowserRouter([
       {
         path:"/updateProduct/:brandName",
         element: <PrivateRoute><UpdateProduct></UpdateProduct></PrivateRoute> ,
-        loader: () => fetch('http://localhost:5000/product'),
+        loader: () => fetch('https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/product'),
       },
       {
         path:'/newUpProduct/:id',
         element: <NewUpPro></NewUpPro> ,
-        loader: ({params}) => fetch(`http://localhost:5000/product/${params.id}`)
+        loader: ({params}) => fetch(`https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/product/${params.id}`)
       },
 
       {
         path: '/productDetails/:id',
         element: <ProductDetails/>,
-        loader: ({params}) => fetch(`http://localhost:5000/product/${params.id}`)
+        loader: ({params}) => fetch(`https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/product/${params.id}`)
       },
       {
         path: '/edit/:id',
         element: <EditUpdate></EditUpdate>,
-        loader: ({params}) => fetch(`http://localhost:5000/product/${params.id}`)
+        loader: ({params}) => fetch(`https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/product/${params.id}`)
       },
       {
         path: '/mycart',
         element:<PrivateRoute>  <MyCart></MyCart> </PrivateRoute>,
-        loader: ()=> fetch('http://localhost:5000/cart')
+        loader: ()=> fetch('https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/cart')
       }
     ],
   },

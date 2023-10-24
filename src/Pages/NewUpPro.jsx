@@ -18,7 +18,7 @@ const NewUpPro = () => {
         console.log(cartInfo);
         // step 2
 
-        fetch('http://localhost:5000/cart',{
+        fetch('https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/cart',{
             method:"POST",
             headers:{
                 'Content-type': 'application/json',

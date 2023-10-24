@@ -24,7 +24,7 @@ const EditUpdate = () => {
         console.log(updatedProduct);
    
         //send data to the server
-        fetch(`http://localhost:5000/product/${_id}`,{
+        fetch(`https://cibo-store-server-33vmdc89i-shamima-akter.vercel.app/product/${_id}`,{
            method: 'PUT',
            headers:{
                'content-type':'application/json'
