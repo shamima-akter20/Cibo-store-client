@@ -25,13 +25,13 @@
     },
     {
       "id": 5,
-      "brand_name": "Nestlé",
+      "brand_name": "Nestle",
       "short_detail": "Quality food and beverages by Nestlé.",
       "image":"https://i.ibb.co/hCD2q7g/nest.png"
     },
     {
       "id": 6,
-      "brand_name": "Kellogg's",
+      "brand_name": "Kelloggs",
       "short_detail": "Start your day with Kellogg's cereals.",
       "image":"https://i.ibb.co/KhvkZJc/k.jpg"
     }

@@ -20,9 +20,12 @@ const UpdateProduct = () => {
 
 
     return (
-        <div>
-            <h1 className="text-5xl font-extrabold" >
-                update product: {products.length} </h1>
+        <div className="mb-16">
+            <h1 className=" text-center text-4xl md:text-5xl font-extrabold 
+             py-8 md:py-14 text-[#8A3324]" >
+            Varieties of Food  </h1>
+
+               
 
 <div className="flex justify-center ">
 <div className="grid md:grid-cols-2 gap-8 lg:grid-cols-3">

@@ -40,6 +40,7 @@ return (
 <div>
 {/* card-body */}
 <div className="flex max-w-[20rem] flex-col rounded-xl bg-white bg-clip-border shadow-2xl">
+    
      <div className=" overflow-hidden rounded-t-xl">
          <img className="w-full h-52" src={image} alt=""/>
      </div>

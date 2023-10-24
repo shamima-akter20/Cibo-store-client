@@ -105,7 +105,7 @@ return (
 
          <p className="mt-3 text-sm" >Don't have an Account? 
             <Link to="/registration">
-                <span className="text-rose-950 font-bold ">  SIGN IN</span>
+                <span className="text-rose-950 font-bold "> REGISTER</span>
             </Link> 
          </p>
 

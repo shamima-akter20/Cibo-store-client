@@ -9,7 +9,7 @@ export default function ProductDetails() {
 
     const myCart = product;
     myCart.email = user.email;
-    console.log(myCart);
+    // console.log(myCart);
     // fetch('url', {
     //     headers: {
     //         'conte'
@@ -19,6 +19,9 @@ export default function ProductDetails() {
   return (
     <div>
         <h1>product details</h1>
+        <button className='btn'></button>
     </div>
   )
-};
+}
+
+
