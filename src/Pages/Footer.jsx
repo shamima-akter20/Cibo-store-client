@@ -10,23 +10,23 @@ const Footer = () => {
            <a className="normal-case text-2xl md:text-4xl text-black font-bold ">
             Ci<span className="text-[#8A3324]">b</span>o</a>
       </div>
-    <p>CIBO Industries Ltd.<br/>Since 1992</p>
+    <p className=" text-[#8A3324]">CIBO Industries Ltd.<br/>Since 1992</p>
   </aside> 
-  <nav>
+  <nav className=" text-[#8A3324]">
     <header className="footer-title">Services</header> 
     <a className="link link-hover">Branding</a> 
     <a className="link link-hover">Design</a> 
     <a className="link link-hover">Marketing</a> 
     <a className="link link-hover">Advertisement</a>
   </nav> 
-  <nav>
+  <nav className=" text-[#8A3324]">
     <header className="footer-title">Company</header> 
     <a className="link link-hover">About us</a> 
     <a className="link link-hover">Contact</a> 
     <a className="link link-hover">Jobs</a> 
     <a className="link link-hover">Press kit</a>
   </nav> 
-  <nav>
+  <nav className=" text-[#8A3324]">
     <header className="footer-title">Legal</header> 
     <a className="link link-hover">Terms of use</a> 
     <a className="link link-hover">Privacy policy</a> 
